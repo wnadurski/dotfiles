@@ -6,3 +6,5 @@ cp .vimrc ~/
 cp .minttyrc ~/
 mkdir -p ~/.vim/colors
 cp solarized.vim ~/.vim/colors/
+
+vim +PluginInstall +qall
