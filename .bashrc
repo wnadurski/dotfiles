@@ -41,6 +41,7 @@ export PS1='\n\[\e${cwdcolor}\][$PWD]\n\[\e${usercolor}\][\u]\[\e${host_name}\][
 # Aliases
 alias ll='ls -l --color'
 alias ls='ls --color'
+alias la='ls -la --color'
 alias grep='grep -n --color'
 
 eval $(ssh-agent)
