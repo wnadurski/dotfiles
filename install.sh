@@ -1,5 +1,6 @@
 #!/bin/bash
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+pip install powerline-status
 ln -s .bashrc ~/
 ln -s .tmux.conf ~/
 ln -s .vimrc ~/
