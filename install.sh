@@ -10,6 +10,7 @@ mkdir -p ~/.vim/colors
 ln -s solarized.vim ~/.vim/colors/
 ln -s .zshrc ~/
 ln -s .env.sh ~/
+ln -s .aliases.sh ~/
 
 vim +PluginInstall +qall
 git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
